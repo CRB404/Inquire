@@ -384,7 +384,7 @@ hr {
 /* Background */
 body {
   background: linear-gradient(15deg, #41204F, #634877); /* Standard syntax */
-  height: 667px;
+  height: 100%;
 }
 
 /* Search Bar
