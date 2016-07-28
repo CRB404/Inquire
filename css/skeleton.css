@@ -383,7 +383,7 @@ hr {
 
 /* Background */
 body {
-  height: 580px;
+  height: 500px;
   background: linear-gradient(15deg, #41204F, #634877); /* Standard syntax */
 }
 
