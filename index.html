@@ -1,110 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" class="no-js">
+	<head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Inquire</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Inquire</title>
+		<meta name="description" content="A Collection of Page Transitions with CSS Animations" />
+		<meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/animations.css" />
+		<link rel="stylesheet" type="text/css" href="css/skeleton.css" />
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <script src="https://use.fontawesome.com/b1ea2d65a4.js"></script>
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	  <script src="https://use.fontawesome.com/b1ea2d65a4.js"></script>
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+		<script src="js/modernizr.custom.js"></script>
+	</head>
 
-  <!-- <link rel="stylesheet" type="text/css" href="css/component.css" /> -->
-  <link rel="stylesheet" type="text/css" href="css/animations.css" />
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+	<body>
 
-</head>
-<body>
+<!-- Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<div class="container" style="padding:1px;">
+			<div class="row">
+				<div class="one-half column" style="margin-top: 7%">
+					<img src="images/logo.png" style="height: 50px;"></img>
+				</div>
+			</div>
+		</div>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <!-- Header -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 7%">
-        <img src="images/logo.png" style="height: 50px;"></img>
-      </div>
-    </div>
-  </div>
+<!-- Begin of Moving Pages
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<div id="pt-main" class="pt-perspective">
 
-<!-- Begin Changing Pages -->
-<div id="pt-main" class="pt-perspective">
+			<!-- Begin Page 1 -->
+			<div class="pt-page pt-page-1">
+				<div class="container">
+					<div class="row">
+						<div class="one-half column" style="margin-top: 30%">
+							<h4 style="font-family: 'Montserrat', sans-serif; font-weight:700; font-size:40px;">I want <br>to know <br>about...</h4>
+						</div>
+					</div>
+				</div>
 
-  <!-- Begin Page 1 -->
-  <div class="pt-page pt-page-1">
-    <div class="container">
-      <div class="row">
-        <div class="one-half column" style="margin-top: 30%">
-          <h4 style="font-family: 'Montserrat', sans-serif; font-weight:700; font-size:40px;">I want <br>to know <br>about...</h4>
-        </div>
-      </div>
-    </div>
+				<!-- Search bar -->
+				<div class="container">
+					<div class="row">
+						<div class="box">
+							<div class="container-4">
+								<input type="search" id="search" placeholder="Punk rock in SF"/>
+								<button class="icon"><i class="fa fa-search" style="vertical-align: left;"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End of Page 1 -->
 
-    <!-- Search bar -->
-    <div class="container">
-      <div class="row">
-        <div class="box">
-          <div class="container-4">
-            <input type="search" id="search" placeholder="Punk rock in SF"/>
-            <button class="icon"><i class="fa fa-search" style="vertical-align: left;"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End of Page 1 -->
+			<!-- Begin Page 2 -->
+			<div class="pt-page pt-page-2">
+				<div class="container">
+					<div class="row">
+						<div class="one-half column" style="margin-top: 30%">
+							<h4 style="font-family: 'Montserrat', sans-serif; font-weight:700; font-size:40px;">Profile <br>info <br>please...</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Page 2 -->
 
-</div>
-<!-- End of Changing Pages -->
+		</div>
+		<!-- End of Moving Pages -->
 
-<div id="dl-menu">
+		<!-- Update Broswer -->
+		<div class="pt-message">
+			<p>Your browser does not support CSS animations.</p>
+		</div>
 
-    <!-- Navigation -->
-    <div class="container">
-      <div class="row">
-        <div class="one column" style="width: 100%; overflow: hidden; margin-top: 47%;">
-          <div class="nav">
-            <ul class="dl-menu">
-              <li data-animation="1"><a><button class="icon"><i class="fa fa-phone" aria-hidden="true"></i></button></a></li>
-              <li data-animation="1"><a><button class="icon"><i class="fa fa-user" aria-hidden="true"></i></button></a></li>
-              <li data-animation="1"><a><button class="icon"><i class="fa fa-question" aria-hidden="true"></i></button></a></li>
-            </ul>
-          <!-- <div class="circle" style="float: left; margin-left: 25%;"></div>
-          <div class="circle" style="margin-left: 55%;"></div> -->
-          </div>
-        </div>
-      </div>
-    </div>
 
-</div>
-
+<!-- Triggers and Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<div class="pt-triggers">
+			<div class="container" style="">
+				<div id="dl-menu">
+					<ul class="dl-menu">
+						<div class="nav">
+								<li data-animation="1"><a href="#"><button class="icon"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+								<li data-animation="2"><a href="#"><button class="icon"><i class="fa fa-question" aria-hidden="true"></i></a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- /triggers -->
 
 <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="js/jquery.dlmenu.js"></script>
-  <script src="js/pagetransitions.js"></script>
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.dlmenu.js"></script>
+		<script src="js/pagetransitions.js"></script>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
+<!-- End
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	</body>
 </html>

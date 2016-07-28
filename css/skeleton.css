@@ -160,9 +160,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #979797; }
 a:hover {
-  color: #0FA0CE; }
+  color: #979797; }
 
 
 /* Buttons
@@ -419,11 +419,11 @@ body {
    color: #979797;
 }
 
-.container-4 input#search:-moz-placeholder { /* Firefox 18- */
+.container-4 input#search:-moz-placeholder {
    color: #979797;
 }
 
-.container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
+.container-4 input#search::-moz-placeholder {
    color: #979797;
 }
 
@@ -438,7 +438,7 @@ body {
 
   border-style: solid;
   border-width: 1px;
-  background: transparent;
+  background: #BABABA;
   height: 45px;
   width: 80px;
   color: #979797;

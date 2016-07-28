@@ -1,4 +1,4 @@
-html, body { height: 667px; }
+html, body { height: 100%; }
 
 .pt-perspective {
 	position: relative;
@@ -74,36 +74,38 @@ html, body { height: 667px; }
 }
 
 .pt-page-1 {
-	background: #0ac2d2;
+	background: transparent;
 }
 
 .pt-page-2 {
-	background: #7bb7fa;
+	background: transparent;
 }
 
 .pt-page-3 {
-	background: #60d7a9;
+	background: transparent;
 }
 
 .pt-page-4 {
-	background: #fdc162;
+	background: transparent;
 }
 
 .pt-page-5 {
-	background: #fd6a62;
+	background: transparent;
 }
 
 .pt-page-6 {
-	background: #f68dbb;
+	background: transparent;
 }
 
 /* Triggers (menu and button) */
 
 .pt-triggers {
 	position: absolute;
-	width: 300px;
+	width: 100%;
 	z-index: 999999;
-	top: 12%;
+	/*top: 12%;*/
+	bottom: 0;
+	margin-bottom: 5%;
 	left: 50%;
 	margin-top: 130px;
 	-webkit-transform: translateX(-50%);
@@ -142,7 +144,7 @@ html, body { height: 667px; }
 
 .pt-touch-button {
 	background: #fff;
-	color: #aaa;
+	color: #fff;
 }
 
 .pt-triggers .dl-menuwrapper button {
